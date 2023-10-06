@@ -1,4 +1,5 @@
 function sentenceSearcher(text, word) {
+    // On n'utilise pas le var mais seulement les const et let
     const sentences = text.split('.');
     let foundSentence = '';  
     

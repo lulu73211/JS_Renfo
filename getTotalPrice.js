@@ -11,8 +11,6 @@ function getTotalPrice(groceries) {
     return total;  
 }
 
-// Exemples d'utilisation:
-
 console.log(getTotalPrice([{ product: 'Milk', quantity: 1, price: 1.5 }]));  // 1.5
 
 console.log(getTotalPrice([
